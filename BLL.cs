@@ -13,7 +13,7 @@ namespace InformesContables
         DiarioDataContext oDC = new DiarioDataContext();
 
         
-
+        
          //Cargo la tabla diario entera y la meto a un dataSet
         public DataSet lstDiario()
         {
@@ -23,7 +23,7 @@ namespace InformesContables
             DataRow oFila;
             try
             {
-
+                prueba
                 oColumna = new DataColumn();
                 oColumna.DataType = System.Type.GetType("System.Int32");
                 oColumna.ColumnName = "Id";
